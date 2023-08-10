@@ -1,0 +1,43 @@
+.quiz-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.active-question-no {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.total-question {
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.selected-correct-answer {
+  background-color: green;
+  color: white;
+  pointer-events: none; /* Disable further clicks */
+}
+
+.selected-wrong-answer {
+  background-color: red;
+  color: white;
+  pointer-events: none; /* Disable further clicks */
+}
+
+.flex-right {
+  text-align: right;
+}

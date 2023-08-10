@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&family=Ultra&display=swap');
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #E3E6F3;
+  }
+  
+  .about-section {
+    margin-bottom: 40px;
+  }
+  
+  .about-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .about-us{
+    font-size: 40px;
+  }
+
+  .person {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .person img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .person p {
+    font-size: 16px;
+  }
+
+  .our-story {
+    display: flex;
+    align-items: center; /* Center items horizontally */
+  }
+  
+  #our-story-text {
+    margin: 10px 10px 0 10px;
+    text-align: justify;
+    font-family: 'Lora', serif;
+    padding: 5px;
+    font-size: 15px;
+  }
+  
+  #our-story-image {
+    margin: 10px 10px 0 10px;
+    width: 450px;
+    height: 200px;
+  }
+  
+  /* Media query for screens with a maximum width of 600px */
+  @media (max-width: 800px) {
+    .our-story {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+    }
+  
+    #our-story-text {
+      margin: 10px 10px 0 10px;
+      text-align: justify;
+      font-family: 'Lora', serif;
+      padding: 5px;
+      font-size: 15px;
+    }
+  
+    #our-story-image {
+      margin: 10px 10px 0 10px;
+      width: 100%; /* Make the image width 100% of the container */
+      max-width: 450px; /* Set a maximum width for the image */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+  
+  .our-mission{
+    display:flex;
+  }
+
+  #our-mission-text{
+    margin-right:10px;
+    text-align: justify;
+    /* border: 5px solid black; */
+    font-family: 'Lora', serif;
+    /* font-family: 'Ultra', serif; */
+    padding:5px;
+    font-size:15px;
+  }
+
